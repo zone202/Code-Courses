@@ -1,0 +1,126 @@
+/*
+Theme Name: Bootstrap 5 Custom Theme
+Theme URI: https://primeinspire.com
+Author: Prime Inspire
+Author URI: https://primeinspire.com
+Description: Custom Theme for DEMO
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+body {
+  background-color: #f8f9fa !important;
+  padding-top: 70px;
+}
+.dropdown-menu {
+  font-size: small !important;
+}
+.navbar-brand img {
+  width: 80px;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.border-black {
+  border-top: 1px solid #3e3e3e;
+}
+.feature_holder img {
+  width: 55px;
+  height: auto;
+  padding-left: 10px;
+}
+.main-content h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.main-content img {
+  max-width: 100%;
+  height: auto;
+}
+blockquote {
+  padding: 15px;
+  background-color: #e3e3e3;
+  border-left: 3px solid black;
+}
+pre {
+  padding: 15px;
+  background-color: #e3e3e3;
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+}
+.course-syllabus ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  column-count: 2;
+}
+.course-syllabus ul > li {
+  display: inline-block;
+  background-color: #2f8080;
+  color: white;
+  padding: 12px;
+  margin: 5px;
+  width: 250px;
+  border-radius: 3px;
+}
+
+.card {
+  height: 100% !important;
+}
+
+.front-picture {
+  height: 100%;
+}
+
+.navbar-light .navbar-toggler {
+  color: #2f8080 !important;
+}
+
+button.btn.btn-sm.btn-success {
+  background-color: #2f8080;
+}
+
+a.btn.btn-sm.btn-success {
+  background-color: #2f8080;
+}
+
+a.nav-link {
+  text-align: center;
+}
+
+section.features.pt-3.pb-3.mt-3 {
+  background-color: #2f8080 !important;
+}
+
+.d-flex.align-items-center.feature_holder.small.border.rounded.mb-3 {
+  background-color: white !important;
+}
+
+.fs-5 {
+  margin-top: 10px;
+}
+
+.front-text.col-lg-6.col-md-6 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .nav-link {
+    font-size: 30px;
+  }
+  .input-group {
+    height: 50px;
+  }
+
+  .course-syllabus ul {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .dropdown-item {
+    font-size: 25px !important;
+    text-align: center !important;
+  }
+}
